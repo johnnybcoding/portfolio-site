@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="utf-8">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Portfolio Website</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="https://kit.fontawesome.com/332a1004dc.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+      <div class="container-fluid">
+        <a href="#" class="nav-bar-brand"></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#target0">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#target1">Skills</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#target2">About Me</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="#target3">Connect</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Image Slider -->
+    <a name="target0"></a>
+    <div id="slides" class="carousel slide" data-ride="carousel">
+      <ul class="carousel-indicators">
+        <li data-target="#slides" data-slide-to="0" class="active"></li>
+        <li data-target="#slides" data-slide-to="1"></li>
+        <li data-target="#slides" data-slide-to="2"></li>
+      </ul>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/project2.jpg" />
+          <div class="carousel-caption">
+            <h1 class="display-2">Project 1</h1>
+            <h3>Weather App</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              View Demo
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">Github</button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/project3.jpg" />
+          <div class="carousel-caption">
+            <h1 class="display-2">Project 2</h1>
+            <h3>Github Finder</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              View Demo
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">Github</button>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/project1.jpg" />
+          <div class="carousel-caption">
+            <h1 class="display-2">Project 3</h1>
+            <h3>Form Validation</h3>
+            <button type="button" class="btn btn-outline-light btn-lg">
+              View Demo
+            </button>
+            <button type="button" class="btn btn-primary btn-lg">Github</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jumbotron -->
+    <div class="container-fluid">
+      <div class="row text-center jumbotron">
+        <div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+          <p class="lead">
+            Above are some projects I worked on: A Weather app, Github Finder
+            and a sign up page using form validation. All showcasing a range of
+            technologies being used, such as CSS frameworks, vanilla JavaScript,
+            and React. Enjoy!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Welcome section -->
+    <div class="container-fluid padding">
+      <div class="row text-center">
+        <div class="col-12">
+          <a name="target1"></a>
+          <h1 class="display-4">Skills</h1>
+        </div>
+        <hr />
+        <div class="col-12">
+          <p class="lead">
+            Below are some of the skills and tools I utilize to take ideas and
+            turn them into functional, eye-pleasing works of art!
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Three column section -->
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-code"></i>
+          <h3>HTML5</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS3</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-react"></i>
+          <h3>React</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-sass"></i>
+          <h3>Sass</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-bold"></i>
+          <h3>Bootstrap</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fas fa-terminal"></i>
+          <h3>Terminal</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-node"></i>
+          <h3>Node JS</h3>
+        </div>
+
+        <div class="col-xs-12 col-sm-6 col-md-4">
+          <i class="fab fa-npm"></i>
+          <h3>NPM</h3>
+        </div>
+      </div>
+      <hr class="my-4" />
+    </div>
+
+    <!-- Two column section -->
+    <div class="container-fluid padding">
+      <div class="row padding">
+        <div class="col-md-12 col-lg-6">
+          <a name="target2"></a>
+          <h2>About Me</h2>
+          <p>
+            My name is Johnny Jones and I'm a Web Developer. I consider myself a
+            student in every aspect of life, including web development. I’m
+            always actively seeking out new technologies and staying up-to-date
+            on industry trends and advancements. This has allowed me to stay
+            ahead of the curve and deliver exceptional work for clients. Outside
+            of web development, I enjoy spending time with my family, gaming,
+            and staying active. If you’d like to chat, feel free to reach me at
+            johnnybcoding@gmail.com.
+          </p>
+          <br />
+          <a href=""></a>
+        </div>
+        <div class="col-lg-6">
+          <img src="img/project1.jpg" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+
+    <hr class="my-4" />
+
+    <!-- Fixed background -->
+
+    <!-- Emoji Section -->
+
+    <!-- Meet the team -->
+
+    <!-- Cards -->
+
+    <!-- Two column Section -->
+
+    <!-- Connect -->
+    <div class="container-fluid padding">
+      <div class="row text-center padding">
+        <div class="col-12">
+          <a name="target3"></a>
+          <h2>Connect</h2>
+        </div>
+        <div class="col-12 social padding ">
+          <a href="https://twitter.com/johnnyj773" target="_blank"
+            ><i class="fab fa-twitter"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/johnny-jones-51bbb9181/"
+            target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a href="https://github.com/johnnybcoding" target="_blank"
+            ><i class="fab fa-github"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer>
+      <div class="col-12 text-center">
+        <h1 class="display-4 contact">Contact</h1>
+        <div class="email">
+          <p>E-mail:</p>
+          <p>johnnybcoding@gmail.com</p>
+        </div>
+        <h5 class="copy">&copy 2019</h5>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
